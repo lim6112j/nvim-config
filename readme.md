@@ -1,4 +1,5 @@
 * how to setup
+1 [setup youtube](https://www.youtube.com/watch?v=vdn_pKJUda8)
 1 install font [meslo nerd font](https://www.nerdfonts.com/)
 1 clone to ~
 1 rename folder to nvim
