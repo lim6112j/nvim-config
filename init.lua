@@ -1,0 +1,6 @@
+require("benlim.plugins-setup")
+require("benlim.core.options")
+require("benlim.core.keymaps")
+require("benlim.core.colorscheme")
+require("benlim.plugins.comment")
+require("benlim.plugins.nvim-tree")
