@@ -90,7 +90,7 @@ return packer.startup(function(use)
 
 	-- auto closing
 	use("windwp/nvim-autopairs")
-	use("windwp/nvim-ts-autotag")
+	use({ "windwp/nvim-ts-autotag", after = "nvim-treesitter" })
 
 	-- git signs plugin
 	use("lewis6991/gitsigns.nvim")
