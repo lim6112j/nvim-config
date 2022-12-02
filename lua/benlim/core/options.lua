@@ -36,3 +36,5 @@ opt.splitbelow = true
 
 opt.iskeyword:append("-")
 
+opt.foldmethod = "expr"
+opt.foldexpr = "nvim.treesitter#foldexpr()"
