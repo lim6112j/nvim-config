@@ -28,6 +28,7 @@ mason_lspconfig.setup({
 		"sumneko_lua",
 		"emmet_ls",
 		"rust_analyzer",
+		"fsautocomplete",
 		"hls",
 	},
 })

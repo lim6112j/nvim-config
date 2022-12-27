@@ -88,6 +88,11 @@ lspconfig["rust_analyzer"].setup({
 	capabilities = capabilities,
 	on_attach = on_attach,
 })
+-- fsharp
+lspconfig["fsautocomplete"].setup({
+	capabilities = capabilities,
+	on_attach = on_attach,
+})
 -- haskell-language-server
 lspconfig["hls"].setup({
 	capabilities = capabilities,
