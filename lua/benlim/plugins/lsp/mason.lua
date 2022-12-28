@@ -31,6 +31,7 @@ mason_lspconfig.setup({
 		"fsautocomplete",
 		"csharp_ls",
 		"hls",
+		"elixirls",
 	},
 })
 

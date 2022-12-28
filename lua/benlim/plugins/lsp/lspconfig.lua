@@ -103,3 +103,8 @@ lspconfig["csharp_ls"].setup({
 	capabilities = capabilities,
 	on_attach = on_attach,
 })
+-- elixir language server
+lspconfig["elixirls"].setup({
+	capabilities = capabilities,
+	on_attach = on_attach,
+})
