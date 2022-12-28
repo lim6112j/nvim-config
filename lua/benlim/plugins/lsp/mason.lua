@@ -29,6 +29,7 @@ mason_lspconfig.setup({
 		"emmet_ls",
 		"rust_analyzer",
 		"fsautocomplete",
+		"csharp_ls",
 		"hls",
 	},
 })
@@ -38,5 +39,6 @@ mason_null_ls.setup({
 		"prettier",
 		"stylua",
 		"eslint_d",
+		"csharpier",
 	},
 })

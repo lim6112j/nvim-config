@@ -98,3 +98,8 @@ lspconfig["hls"].setup({
 	capabilities = capabilities,
 	on_attach = on_attach,
 })
+-- csharp-language-server
+lspconfig["csharp_ls"].setup({
+	capabilities = capabilities,
+	on_attach = on_attach,
+})
