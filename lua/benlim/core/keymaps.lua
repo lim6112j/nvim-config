@@ -25,6 +25,7 @@ keymap.set("n", "<leader>tp", ":tabp<CR>") -- go to previous tab
 keymap.set("n", "<leader>bb", ":buffers<CR>") -- buffer list
 keymap.set("n", "<leader>bn", ":bNext<CR>") -- buffer next
 keymap.set("n", "<leader>bp", ":bprevious<CR>") -- buffer previous
+keymap.set("n", "<leader>bq", ":bdelete<CR>") -- buffer previous
 -- plugin kemaps
 
 -- vim maximizer
