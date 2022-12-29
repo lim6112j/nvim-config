@@ -22,6 +22,9 @@ keymap.set("n", "<leader>tq", ":tabclose<CR>") -- close current tab
 keymap.set("n", "<leader>tn", ":tabn<CR>") -- go to next tab
 keymap.set("n", "<leader>tp", ":tabp<CR>") -- go to previous tab
 
+keymap.set("n", "<leader>bb", ":buffers<CR>") -- buffer list
+keymap.set("n", "<leader>bn", ":bNext<CR>") -- buffer next
+keymap.set("n", "<leader>bp", ":bprevious<CR>") -- buffer previous
 -- plugin kemaps
 
 -- vim maximizer
