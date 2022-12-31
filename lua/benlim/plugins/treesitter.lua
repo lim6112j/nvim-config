@@ -28,6 +28,7 @@ treesitter.setup({
 		"haskell",
 		"dockerfile",
 		"gitignore",
+		"elixir",
 		"heex",
 		"eex",
 	},
