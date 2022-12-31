@@ -11,6 +11,9 @@ treesitter.setup({
 	autotag = { enable = true },
 	-- ensure these language parsers are installed
 	ensure_installed = {
+		"elixir",
+		"heex",
+		"eex",
 		"json",
 		"javascript",
 		"typescript",
@@ -28,9 +31,6 @@ treesitter.setup({
 		"haskell",
 		"dockerfile",
 		"gitignore",
-		"elixir",
-		"heex",
-		"eex",
 	},
 	-- auto install above language parsers
 	auto_install = true,
