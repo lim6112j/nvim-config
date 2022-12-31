@@ -28,6 +28,8 @@ treesitter.setup({
 		"haskell",
 		"dockerfile",
 		"gitignore",
+		"heex",
+		"eex",
 	},
 	-- auto install above language parsers
 	auto_install = true,
