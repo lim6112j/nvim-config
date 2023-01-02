@@ -108,6 +108,11 @@ lspconfig["elixirls"].setup({
 	capabilities = capabilities,
 	on_attach = on_attach,
 })
+-- clojure language server
+lspconfig["clojure_lsp"].setup({
+	capabilities = capabilities,
+	on_attach = on_attach,
+})
 -- HTML language server
 lspconfig["html"].setup({
 	capabilities = capabilities,
