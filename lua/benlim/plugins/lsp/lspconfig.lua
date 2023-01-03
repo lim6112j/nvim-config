@@ -113,6 +113,11 @@ lspconfig["clojure_lsp"].setup({
 	capabilities = capabilities,
 	on_attach = on_attach,
 })
+-- kotlin language server
+lspconfig["kotlin_language_server"].setup({
+	capabilities = capabilities,
+	on_attach = on_attach,
+})
 -- HTML language server
 lspconfig["html"].setup({
 	capabilities = capabilities,
