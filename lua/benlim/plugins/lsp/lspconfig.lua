@@ -123,3 +123,8 @@ lspconfig["html"].setup({
 	capabilities = capabilities,
 	on_attach = on_attach,
 })
+-- zls , zig language server
+lspconfig["zls"].setup({
+	capabilities = capabilities,
+	on_attach = on_attach,
+})
