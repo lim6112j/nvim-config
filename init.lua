@@ -20,6 +20,8 @@ vim.fn["plug#"]("ionide/Ionide-vim")
 vim.fn["plug#"]("vim-scripts/paredit.vim")
 vim.fn["plug#end"]()
 vim.api.nvim_command("set nofoldenable")
+vim.api.nvim_command("set wildcharm=<C-z>")
+vim.api.nvim_command("set wildcharm=<C-z>")
 -- Load custom treesitter grammar for org filetype
 require("orgmode").setup_ts_grammar()
 
