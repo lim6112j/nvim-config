@@ -27,6 +27,7 @@ keymap.set("n", "<leader>bn", ":bNext<CR>") -- buffer next
 keymap.set("n", "<leader>bp", ":bprevious<CR>") -- buffer previous
 keymap.set("n", "<leader>bq", ":bdelete<CR>") -- buffer previous
 keymap.set("n", "<leader>bl", ":b <C-z>")
+keymap.set("n", "<leader>bf", "<cmd>lua vim.lsp.buf.format()<CR>")
 -- plugin kemaps
 
 -- vim maximizer
