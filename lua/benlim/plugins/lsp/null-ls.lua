@@ -10,7 +10,7 @@ null_ls.setup({
 	sources = {
 		formatting.prettier,
 		formatting.stylua,
-		diagnostics.eslint_d,
+		diagnostics.eslint_d.with({ timeout = 10000 }),
 		formatting.ktlint,
 	},
 	-- configure format on save
