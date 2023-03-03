@@ -75,6 +75,14 @@ return packer.startup(function(use)
 	use({ "glepnir/lspsaga.nvim", branch = "main" })
 	use("jose-elias-alvarez/typescript.nvim")
 	use("onsails/lspkind.nvim")
+	use("puremourning/vimspector")
+	-- Useful completion sources:
+	use("hrsh7th/cmp-nvim-lua")
+	use("hrsh7th/cmp-nvim-lsp-signature-help")
+	use("hrsh7th/cmp-vsnip")
+	use("hrsh7th/vim-vsnip")
+	-- language specific
+	use("simrat39/rust-tools.nvim")
 
 	-- formatting & linting
 	use("jose-elias-alvarez/null-ls.nvim")

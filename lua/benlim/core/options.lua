@@ -38,3 +38,15 @@ opt.iskeyword:append("-")
 
 opt.foldmethod = "expr"
 opt.foldexpr = "nvim_treesitter#foldexpr()"
+
+-- updatetime: set updatetime for cursorholld
+opt.completeopt = { "menuone", "noselect", "noinsert" }
+opt.shortmess = opt.shortmess + { c = true }
+vim.api.nvim_set_option("updatetime", 300)
+
+-- vimspector
+vim.cmd([[
+  let g:vimspector_sidebar_width = 85
+  let g:vimspector_bottombar_height = 15
+  let g:vimspector_terminal_maxwidth = 70
+  ]])
