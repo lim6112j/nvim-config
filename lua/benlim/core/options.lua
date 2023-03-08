@@ -18,6 +18,7 @@ opt.smartcase = true
 
 -- cursor line
 opt.cursorline = true
+vim.api.nvim_command("hi CursorLine cterm=none ctermfg=white ctermbg=darkred guifg=white guibg=darkred")
 
 -- appearance
 opt.termguicolors = true
