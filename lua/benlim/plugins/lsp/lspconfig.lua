@@ -132,7 +132,11 @@ lspconfig["zls"].setup({
 	capabilities = capabilities,
 	on_attach = on_attach,
 })
-
+-- java
+lspconfig["jdtls"].setup({
+	capabilities = capabilities,
+	on_attach = on_attach,
+})
 -- rust tools
 local rt = require("rust-tools")
 rt.setup({

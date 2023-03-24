@@ -31,6 +31,7 @@ mason_lspconfig.setup({
 		"csharp_ls",
 		"hls",
 		"elixirls",
+		"jdtls",
 	},
 })
 
