@@ -32,6 +32,7 @@ mason_lspconfig.setup({
 		"hls",
 		"elixirls",
 		"jdtls",
+		"pylsp",
 	},
 })
 
