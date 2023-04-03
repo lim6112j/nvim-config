@@ -143,6 +143,12 @@ lspconfig["pylsp"].setup({
 	capabilities = capabilities,
 	on_attach = on_attach,
 })
+-- elm
+
+lspconfig["elmls"].setup({
+	capabilities = capabilities,
+	on_attach = on_attach,
+})
 -- rust tools
 local rt = require("rust-tools")
 rt.setup({
